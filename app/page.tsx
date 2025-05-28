@@ -9,7 +9,7 @@ const navigation = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-[#00a479]/20 to-black">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
@@ -31,7 +31,7 @@ export default function Home() {
       />
       <div className="flex flex-col items-center z-10 animate-fade-in">
       <img
-        src="/mallard_logo_wide.png"
+        src="/mallard_logo_wide_transparent.png"
         alt="Mallard Software Logo"
         className="max-w-2xl w-full mx-auto mb-4"
       />
