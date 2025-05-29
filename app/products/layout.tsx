@@ -1,4 +1,4 @@
-export default function ProjectsLayout({
+export default function ProductsLayout({
 	children,
 }: { children: React.ReactNode }) {
 	return (
@@ -6,4 +6,4 @@ export default function ProjectsLayout({
 			{children}
 		</div>
 	);
-}
+} 

@@ -3,7 +3,7 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-  { name: "Projects", href: "/projects" },
+  { name: "Products", href: "/products" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -46,14 +46,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-[#00a479]/0 via-[#00a479]/50 to-transparent" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm" style={{ color: '#00795a' }}>
-          I'm building{" "}
-          <Link
-            target="_blank"
-            href="https://unkey.dev"
-            className="underline duration-500 hover:text-[#00a479]"
-          >
-            unkey.dev
-          </Link> to solve API authentication and authorization for developers.
+          Trusted software development by Mallard Software, established 2025.
         </h2>
       </div>
     </div>

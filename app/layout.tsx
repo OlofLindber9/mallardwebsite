@@ -6,24 +6,24 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Mallard.com",
+    template: "%s | Mallard.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Mallard Software",
   openGraph: {
-    title: "chronark.com",
+    title: "Mallard.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Mallard Software",
+    url: "https://Mallard.com",
+    siteName: "Mallard.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
+        url: "https://Mallard.com/mallard_logo.png",
+        width: 1024,
+        height: 750,
       },
     ],
-    locale: "en-US",
+    locale: "sv-SE",
     type: "website",
   },
   robots: {
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/mallard_icon_v4.png",
   },
 };
 const inter = Inter({
@@ -65,10 +65,7 @@ export default function RootLayout({
       <head>
         <Analytics />
       </head>
-      <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-          }`}
-      >
+      <body className="bg-black">
         {children}
       </body>
     </html>
