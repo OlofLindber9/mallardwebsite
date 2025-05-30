@@ -65,7 +65,7 @@ export default function ProductsPage() {
               return (
                 <a
                   key={index}
-                  href="/demo" // Change this to your actual demo URL
+                  href="https://echo.mallard.business/" // Change this to your actual demo URL
                   className="block h-full w-full"
                   style={{ textDecoration: 'none' }}
                 >
