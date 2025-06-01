@@ -1,5 +1,5 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Twitter, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -17,6 +17,12 @@ const socials = [
 		label: "Github",
 		handle: "OlofLindber9",
 	},
+	{
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/olof-lindberg-a05a561bb/",
+		label: "Linkedin",
+		handle: "Olof Lindberg",
+	},
 ];
 
 export default function Example() {
@@ -24,7 +30,7 @@ export default function Example() {
 		<div className=" bg-gradient-to-tl from-black via-[#00a479]/20 to-black">
 			<Navigation />
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
-				<div className="grid w-full grid-cols-1 gap-8 mx-auto sm:grid-cols-2 lg:gap-16">
+				<div className="grid w-full grid-cols-1 gap-8 mx-auto sm:grid-cols-3 lg:gap-16">
 					{socials.map((s) => (
 						<Card>
 							<Link
