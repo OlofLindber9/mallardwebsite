@@ -29,10 +29,10 @@ export const Navigation: React.FC = () => {
 				<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
 					<div className="flex justify-between gap-8">
 						<Link
-							href="/products"
+							href="/projects"
 							className="duration-200" style={{ color: '#00795a' }}
 						>
-							Products
+							Projects
 						</Link>
 						<Link
 							href="/contact"
