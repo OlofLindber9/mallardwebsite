@@ -19,6 +19,11 @@ const projects = [
     description: "A real-time dart scoring tool that uses your camera to detect where darts land on the board, automatically calculating and updating your score.",
     href: "https://dartscorer.mallard.business/",
   },
+  {
+    title: "Liquid Simulation",
+    description: "A fluid dynamics simulation written in C++. Download it and watch realistic liquid behavior in real time.",
+    href: "https://liquidsimulation.mallard.business/",
+  },
 ];
 
 export default function ProjectsPage() {
