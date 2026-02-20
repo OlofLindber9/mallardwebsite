@@ -24,6 +24,11 @@ const projects = [
     description: "A fluid dynamics simulation written in C++. Download it and watch realistic liquid behavior in real time.",
     href: "https://liquidsimulation.mallard.business/",
   },
+  {
+    title: "ReelRecs",
+    description: "A full end-to-end movie recommender system trained on the MovieLens 25M dataset. Five models — collaborative filtering, content-based, hybrid, ranking, and a two-tower neural net — power three recommendation modes: search by movie title, personalised picks by user ID, or import your Letterboxd history.",
+    href: "https://oloflindber9-reelrecs.hf.space/",
+  },
 ];
 
 export default function ProjectsPage() {
