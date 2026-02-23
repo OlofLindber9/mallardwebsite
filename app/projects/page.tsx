@@ -29,6 +29,11 @@ const projects = [
     description: "A full end-to-end movie recommender system trained on the MovieLens 25M dataset. Five models (collaborative filtering, content-based, hybrid, ranking, and a two-tower neural net) power three recommendation modes: search by movie title, personalised picks by user ID, or import your Letterboxd history.",
     href: "https://oloflindber9-reelrecs.hf.space/",
   },
+    {
+    title: "Ski Prediction Game",
+    description: "A full-stack web app where friends compete by predicting podium finishes for FIS World Cup cross-country ski races. Built with Next.js 15, Supabase, and Prisma, it automatically scores predictions after each race using live data scraped from the FIS website.",
+    href: "https://skiprediction.mallard.business/",
+  },
 ];
 
 export default function ProjectsPage() {
