@@ -7,22 +7,22 @@ const projects = [
   {
     title: "Echo",
     description: "Mirrors your Discord support server to a public, SEO-friendly website. Customers can Google their issues and find answers instantly — no Discord account needed.",
-    href: "https://echo.mallard.business/",
+    href: "https://echo.anka.it/",
   },
   {
     title: "Swiftle",
     description: "A Wordle-inspired guessing game where players guess Taylor Swift songs. Test your Swiftie knowledge one guess at a time.",
-    href: "https://www.swiftle.org/",
+    href: "https://swiftle.anka.it/",
   },
   {
     title: "Live Dart Scorer",
     description: "A real-time dart scoring tool that uses your camera to detect where darts land on the board, automatically calculating and updating your score.",
-    href: "https://dartscorer.mallard.business/",
+    href: "https://dartscorer.anka.it/",
   },
   {
     title: "Liquid Simulation",
     description: "A fluid dynamics simulation written in C++. Download it and watch realistic liquid behavior in real time.",
-    href: "https://liquidsimulation.mallard.business/",
+    href: "https://liquidsimulation.anka.it/",
   },
   {
     title: "ReelRecs",
@@ -32,7 +32,7 @@ const projects = [
     {
     title: "Ski Prediction Game",
     description: "A full-stack web app where friends compete by predicting podium finishes for FIS World Cup cross-country ski races. Built with Next.js 15, Supabase, and Prisma, it automatically scores predictions after each race using live data scraped from the FIS website.",
-    href: "https://skiprediction.mallard.business/",
+    href: "https://skiprediction.anka.it/",
   },
 ];
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "anka.it",
     description:
-      "Anka Software",
+      "ANKA Software",
     url: "https://anka.it",
     siteName: "anka.it",
     images: [
