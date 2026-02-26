@@ -39,14 +39,14 @@ export default function Home() {
           className="py-3.5 px-0.5 text-4xl z-10 duration-1000 cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap"
           style={{ color: '#00a479' }}
         >
-          Mallard Software
+          Anka Software
         </h1>
       </div>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-[#00a479]/0 via-[#00a479]/50 to-transparent" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm" style={{ color: '#00795a' }}>
-          Trusted software development by Mallard Software, established 2025.
+          Trusted software development by Anka Software, established 2025.
         </h2>
       </div>
     </div>

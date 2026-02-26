@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "mallard.business",
-    template: "%s | Mmallard.business",
+    default: "anka.it",
+    template: "%s | Manka.it",
   },
-  description: "Mallard Software",
+  description: "Anka Software",
   openGraph: {
-    title: "mallard.business",
+    title: "anka.it",
     description:
-      "Mallard Software",
-    url: "https://mallard.business",
-    siteName: "mallard.business",
+      "Anka Software",
+    url: "https://anka.it",
+    siteName: "anka.it",
     images: [
       {
         url: "https://mallard.business/mallard_logo.png",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "mallard",
+    title: "anka",
     card: "summary_large_image",
   },
   icons: {
